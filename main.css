@@ -1,0 +1,96 @@
+/* 
+    Created on : 09 September 2020, 11:47:51 AM
+    Author     : 
+*/
+#nav {
+width:1000px;
+margin:0 auto;
+list-style:none;
+}
+#nav li {
+float:left;
+}
+#nav a {
+    display:block;
+    text-align:center;
+    width: 130px;
+    text-decoration:none; 
+}
+ul {
+    list-style-type: none;
+    margin: 3;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+main {
+	width: 980px;
+	margin: 0 auto;
+	padding: 1.5em;
+	background: white;
+	border: 2px solid navy;
+}
+
+#employees {
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#employees td, #employees th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#employees tr:nth-child(even){background-color: #f2f2f2;}
+
+#employees tr:hover {background-color: #ddd;}
+
+#employees th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+/* styles for the form */
+fieldset {
+    margin: 1em;
+    padding-top: 1em;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 85%;
+}
+
+label {
+    float: left;
+    width: 15em;
+    text-align: right;
+    margin-top: .25em;
+    margin-bottom: .5em;
+  
+}
